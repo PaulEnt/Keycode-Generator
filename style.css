@@ -1,0 +1,29 @@
+html, body {
+    font-family: "Arial, Helvetica, sans-serif";
+    text-align: center;
+}
+
+h2 {
+    font-size: 300px;
+}
+
+#gen {
+    margin-top: 70px;
+}
+
+#container1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    margin-bottom: 70px;
+}
+
+.subContainerOf1 {
+    border: solid 3px rgb(0, 0, 0);
+    background: rgba(72, 77, 243, 0.399);
+    color: rgb(0, 0, 0);
+    width: 15%;
+    margin: 15px;
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8" />
+            <link rel="stylesheet" href="./style.css">
+            <title>Keycode Generator</title>
+        </head>
+        <body onkeydown="keyCode(event)"> <!-- onkeydown: https://www.w3schools.com/jsref/event_onkeydown.asp -->
+            <div id="gen">
+                <h1>Keycode Generator</h1>
+                <div id="container1">
+                    <div class="subContainerOf1">
+                        <p>Key:</p>
+                        <h3 id="key"></h3>
+                    </div> 
+                    
+                    <div class="subContainerOf1">
+                        <p>Which:</p>
+                        <h3 id="which"></h3>
+                    </div>
+
+                    <div class="subContainerOf1">
+                        <p>Code:</p>
+                        <h3 id="code"></h3>
+                    </div>
+                </div>
+            </div>
+            
+            <script src="app.js"></script>
+        </body>
+    </html>
